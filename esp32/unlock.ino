@@ -3,8 +3,8 @@
 #include <ESPmDNS.h>
 
 
-const String ssid = "YΦ";
-const String password = "MRNC2003";
+const String ssid = "";
+const String password = "";
 const int controlPin = 5;
 WebServer server(80);
 
