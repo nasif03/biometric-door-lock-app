@@ -1,17 +1,17 @@
-name: dumb_app
+name: biometric_door_lock
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.8.0
+  sdk: ^3.8.1
 
 dependencies:
   flutter:
     sdk: flutter
-  english_words: ^4.0.0
-  provider: ^6.1.5
-  local_auth: ^2.1.7
+  local_auth: ^2.1.4
+  flutter_blue_plus: ^1.4.0
+  http: ^0.13.5 
 
 dev_dependencies:
   flutter_test:
